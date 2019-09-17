@@ -17,6 +17,7 @@ item-whitelist:
   - "SWORDS"
 
 # For a full list of effects, please visit: https://docs.songoda.com/epic-series/epicenchants/tutorials
+# NOTE!!! THIS PLUGIN REQUIRES ESSENTIALS
 effects:
   CONSOLE_COMMAND:
     command: smite {opponent}
