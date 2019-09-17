@@ -1,0 +1,26 @@
+# The enchant identifier must be unique.
+identifier: Jumper
+
+# The max level for this enchant.
+max-level: 5
+
+# The group of this enchant. Configure the groups in the groups.yml file.
+group: LEGENDARY
+
+# Description
+description:
+  - "Jump super high!"
+
+# What items this enchant can be applied to.
+item-whitelist:
+  - "ARMOR"
+
+# For a full list of effects, please visit: https://docs.songoda.com/epic-series/epicenchants/tutorials
+effects:
+  POTION:
+    # The trigger that will fire this effect.
+    trigger: STATIC_EFFECT
+    # The potion type.
+    potion-type: JUMP
+    # The amplifier of the potion effect.
+    amplifier: "{level}*2"
